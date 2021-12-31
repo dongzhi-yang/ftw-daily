@@ -34,7 +34,11 @@ const TransactionPage = loadable(() => import(/* webpackChunkName: "TransactionP
 
 // Styleguide helps you to review current components and develop new ones
 const StyleguidePage = loadable(() => import(/* webpackChunkName: "StyleguidePage" */ './containers/StyleguidePage/StyleguidePage'));
-
+const FAQPage = loadable(() =>
+  import(
+    /* webpackChunkName: "FAQPage" */ './containers/FAQPage/FAQPage'
+  )
+);
 export const ACCOUNT_SETTINGS_PAGES = [
   'ContactDetailsPage',
   'PasswordChangePage',
@@ -345,6 +349,11 @@ const routeConfiguration = () => {
       component: EmailVerificationPage,
       loadData: pageDataLoadingAPI.EmailVerificationPage.loadData,
     },
+    {
+  path: '/faq',
+  name: 'FAQPage',
+  component: FAQPage,
+  },
   ];
 };
 
