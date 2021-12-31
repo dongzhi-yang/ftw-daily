@@ -11,8 +11,8 @@ const defaultLocations = [
   {
     id: 'default-helsinki',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Aukland, New Zealand',
+      bounds: new LatLngBounds(new LatLng(-36.685119, 175.228302), new LatLng(-36.960217, 174.658896)),
     },
   },
   {
