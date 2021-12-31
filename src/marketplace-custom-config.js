@@ -108,38 +108,38 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        {
-          key: 'towels',
-          label: 'Towels',
-        },
-        {
-          key: 'bathroom',
-          label: 'Bathroom',
-        },
-        {
-          key: 'swimming_pool',
-          label: 'Swimming pool',
-        },
-        {
-          key: 'own_drinks',
-          label: 'Own drinks allowed',
-        },
-        {
-          key: 'jacuzzi',
-          label: 'Jacuzzi',
-        },
-        {
-          key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
-        },
-        {
-          key: 'barbeque',
-          label: 'Barbeque',
-        },
-        {
-          key: 'own_food_allowed',
-          label: 'Own food allowed',
-        },
+          {
+            key: 'terrace',
+            label: 'Terrace',
+          },
+          {
+            key: 'bathroom',
+            label: 'Bathroom',
+          },
+          {
+            key: 'swimming_pool',
+            label: 'Swimming pool',
+          },
+          {
+            key: 'jacuzzi',
+            label: 'Jacuzzi',
+          },
+          {
+            key: 'lake_view',
+            label: 'Lake view',
+          },
+          {
+            key: 'sea_view',
+            label: 'Sea view',
+          },
+          {
+            key: 'barbeque',
+            label: 'Barbeque',
+          },
+          {
+            key: 'fireplace',
+            label: 'Fireplace',
+          }
       ],
     },
   },
